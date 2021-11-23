@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --theme-color: #09142a;
+  --theme-color--two: #4285f4;
+  --theme-color--three: #00aba4;
+  --theme-color--four: #1bbde4;
+  --theme-color--five: #00224f;
+}
+
+/* monika background color */
+.monika-bg-color {
+  background-color: var(--theme-color);
+}
+.monika-text-color {
+  color: var(--theme-color);
+}
+.monika-text-color2 {
+  color: var(--theme-color--two);
+}
+.monika-bg-homeOne {
+  background-color: var(--theme-color--two);
+}
+.monika-bg-homeTwo {
+  background: linear-gradient(to right, #3f4cff, #7160fb);
+}
+.monika-bg-homeThree {
+  background: linear-gradient(to right, #9932cc, #ff5733);
+}
+.monika-bg-homeFour {
+  background: var(--theme-color--three);
+}
+.monika-text-homeFour {
+  color: var(--theme-color--three);
+}
+.monika-text2-homeFour {
+  color: var(--theme-color--five);
+}
+.monika-bg2-homeFour {
+  background-color: var(--theme-color--five);
+}
+.monika-bg-homeFive {
+  background: var(--theme-color--four);
+}
+.monika-text-homeFive {
+  color: var(--theme-color--four);
+}
+
+/* button style in portfolio and index */
+.hoverStyle{
+  background-color: #4285f4;
+  color: white;
+}
+
+.cardPort {
+  display: none;
+}
+.cardPortFull:hover .cardPort {
+  display: block;
+}
+section {
+  overflow: hidden;
+}
+.blog-btn {
+  background: linear-gradient(90deg, #9932cc 0%, #ff5733 100%);
+}

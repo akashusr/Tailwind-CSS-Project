@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media all and (max-width: 992px) {
+  .home2Date {
+    font-size: 8px;
+  }
+  /* navbar */
+  .navbar-contact {
+    display: none !important;
+  }
+  .navbar-contact-info {
+    display: none !important;
+  }
+  .logo-icon1 {
+    filter: brightness(100);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .numbers {
+    font-size: 12px;
+  }
+  .header-banner {
+    padding-top: 12rem;
+  }
+  #myBtn {
+    font-size: 10px;
+    padding: 8px;
+  }
+  .logo a {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-banner {
+    padding-top: 1rem;
+  }
+  .container-box {
+    height: 70vh;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* index start*/
+  .aboutUs-img::before {
+    width: 100px;
+    left: -50px;
+    bottom: -50px;
+  }
+  /* index end*/
+}
+@media only screen and (max-width: 320px) {
+}

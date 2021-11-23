@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO meta tags Start -->
+  <meta name="keyword"
+    content="monika, monika multipurpose html-5 template, monika responsive html-5 template, monika build by semiclone, monika multipage dynamic website">
+  <meta name="description"
+    content="Monika is a multipurpose ready to use website. You can use this website for your company or any kind of business.">
+  <meta name="author" content="Semiclone.com">
+  <!-- SEO meta tags End -->
+
+  <link rel="shortcut icon" type="image/png" href="Assets/images/monikaShada.png" />
+  <!-- Start stylesheet area -->
+  <link rel="stylesheet" href="Assets/CSS/custom.css" />
+  <link rel="stylesheet" href="Assets/CSS/main.css" />
+  <link rel="stylesheet" href="Assets/CSS/responsive.css" />
+  <link rel="stylesheet" href="Assets/CSS/fontawesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- End stylesheet area -->
+  <title>Document</title>
+</head>
+
+<body>
+  <a href="#" class="top z-"><i class="fas fa-arrow-circle-up"></i></a>
+  <!-- Loader -->
+  <!-- <div class="loader" id="preLoader">
+    <img src="/Assets/images/icon/loader.gif" alt="" class="preloader_img">
+  </div> -->
+  <!-- Top Header -->
+  <div class="bg-black py-4 text-white text-center">
+    <div>
+      <div class="w-10/12 mx-auto">
+        <div class="flex justify-between flex-wrap relative">
+          <div class="numbers space-x-4 md:flex flex-wrap">
+            <small>
+              <span><i class="fas fa-phone-alt"></i></span>
+              <a href="tel:+8801793783382">+880 1793 783382</a>
+            </small>
+
+            <small>
+              <span><i class="far fa-envelope"></i></span>
+              <a href="akashusr@gmail.com">akashusr@gmail.com</a>
+            </small>
+          </div>
+          <div class="social">
+            <ul class="flex space-x-4">
+              <li>
+                <a href="https://www.facebook.com/akashusr" target="_blank"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/akashusr/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="fab fa-vimeo-square"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="
+          header-section
+          w-full
+          flex
+          justify-between
+          items-center
+          text-gray-900
+          bg-white
+        " id="navbar">
+    <div class="flex items-center gap-x-1">
+      <img src="/Assets/images/monikaShada.png" class="w-10 color-invert" alt="">
+      <a href="index.html" class="logo font-bold text-lg">Monika</a>
+    </div>
+
+    <input type="checkbox" id="toggle" />
+    <label for="toggle">
+      <i class="fas fa-bars text-black"></i>
+    </label>
+
+    <nav class="navigation list-none">
+      <ul class="list-none lg:flex relative font-semibold">
+        <li class="relative">
+          <a href="index.html">Home +</a>
+          <ul class="absolute left-0 p-1 w-40 text-white dropdown-menu">
+            <li class="w-full">
+              <a href="home1.html">Home One</a>
+            </li>
+            <li class="w-full">
+              <a href="home2.html">Home Two</a>
+            </li>
+            <li class="w-full">
+              <a href="home3.html">Home Three</a>
+            </li>
+            <li class="w-full">
+              <a href="home4.html">Home Four</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="relative"><a href="services.html">Service</a></li>
+
+        <li class="relative">
+          <a href="#">News +</a>
+          <ul class="absolute left-0 p-1 w-40 text-white dropdown-menu">
+            <li class="w-full">
+              <a href="news.html">News </a>
+            </li>
+            <li class="w-full">
+              <a href="news_Single.html">News single</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="relative"><a href="portfolio.html">Portfolio</a></li>
+        <li class="relative"><a href="about_Us.html">About Us</a></li>
+        <li class="relative"><a href="contact_us.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--  News Single section header starts here  -->
+
+  <div class="Banner flex justify-center items-center">
+    <div className="flex justify-center items-center">
+      <div>
+        <p class="text-white font-black text-4xl pb-4">News Single</p>
+        <p class="text-center">
+          <span class="text-white font-semibold">Home /</span>
+          <span class="text-blue-600 font-semibold">Contact Us</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- end of News Single header   -->
+
+  <!-- Single news section starts here -->
+  <section class="my-12 container mx-auto md:flex md:flex-wrap">
+    <!-- news part -->
+    <div class="w-full md:w-2/3 px-4">
+      <div class="">
+        <img class="rounded h-full w-full mb-2" src="./Assets/images/monikaImg1.jpg" alt="working" />
+        <div class="flex items-center text-sm md:text-base">
+          <i class="fas fa-user-alt mr-2"></i>
+          <p class="mr-4">Alexander James</p>
+          <i class="far fa-clock mr-2"></i>
+          <p><span id="datetime"></span></p>
+        </div>
+      </div>
+      <div class="">
+        <h3 class="capitalize md:text-2xl text-lg font-bold mt-4">
+          business intelligence and analytics
+        </h3>
+        <p class="py-4">
+          Business intelligence (BI) leverages software and services to transform data into actionable insights that
+          inform an
+          organization’s strategic and tactical business decisions. BI tools access and analyze data sets and present
+          analytical
+          findings in reports, summaries, dashboards, graphs, charts and maps to provide users with detailed
+          intelligence about
+          the state of the business. <br> <br>
+          The term business intelligence often also refers to a range of tools that provide quick, easy-to-digest access
+          to
+          insights about an organization's current state, based on available data.
+        </p>
+        <div class="
+              md:shadow-md md:box-border
+              h-full
+              w-full
+              p-8
+              mb-5
+              bg-gray-100
+              rounded
+              flex
+              items-center
+              justify-center
+            ">
+          <p class="md:font-semibold text-gray-600 md:text-lg">
+            <q>The best way to predict the future is to create it. There is nothing so useless as doing efficiently that
+              which should
+              not be done at all.</q>
+            <br />
+            <br />
+            <span class="text-blue-400">&#8212;&mdash;&mdash;</span> Peter Drucker
+          </p>
+        </div>
+        <div class="flex py-4">
+          <img class="rounded h-1/2 w-1/2 mb-2 pr-2" src="./Assets/images/monikaImg4.jpg" alt="working" />
+          <img class="rounded h-1/2 w-1/2 mb-2 pl-2" src="./Assets/images/monikaImg5.jpg" alt="working" />
+        </div>
+        <div>
+          <p>
+            Do you have a feeling you might be an entrepreneur at heart? In “50 Signs You Might Be an Entrepreneur,”
+            published on
+            Entrepreneur.com, John Rampton could point out the one—or many—things that makes you the perfect small
+            business owner
+            deep down inside.
+
+            Entrepreneurs and business owners have a certain kind of spirit and drive that keeps pushing them forward.
+            Use this
+            business article to find out if you possess the qualities of an entrepreneur yourself.
+          </p>
+        </div>
+        <div class="flex justify-between items-center my-5 text-lg">
+          <div class="flex items-center text-sm md:text-base">
+            <i class="fas fa-tag mr-2"></i>
+            <p>Tags : Business. Consulting Solutions</p>
+          </div>
+          <div>
+            <i class="fas fa-share-alt-square"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- Comment part -->
+      <div class="my-8 w-full">
+        <h3 class="text-2xl font-bold">Leave Comment</h3>
+        <p class="mb-3">
+          Your Email Address Will Not Published. Required Fields Are Marked
+        </p>
+        <form class="w-full space-y-5">
+          <div class="md:flex">
+            <input class="
+                  bg-gray-200
+                  appearance-none
+                  border-2 border-gray-200
+                  rounded
+                  w-full
+                  py-2
+                  px-4
+                  text-gray-700
+                  leading-tight
+                  focus:outline-none focus:bg-white focus:border-purple-500
+                " id="personName" type="text" placeholder="Your Name" />
+            <input name='email' class="
+                  md:ml-5
+                  bg-gray-200
+                  appearance-none
+                  border-2 border-gray-200
+                  rounded
+                  w-full
+                  py-2
+                  px-4
+                  text-gray-700
+                  leading-tight
+                  focus:outline-none focus:bg-white focus:border-purple-500
+                " id="email" type="text" placeholder="Your Email" />
+          </div>
+          <div class="w-full mt-5">
+            <textarea name='comment' id="comment" class="
+                  bg-gray-200
+                  appearance-none
+                  border-2 border-gray-200
+                  rounded
+                  w-full
+                  py-2
+                  px-4
+                  text-gray-700
+                  leading-tight
+                  focus:outline-none focus:bg-white focus:border-purple-500
+                " rows="4" cols="50" placeholder="Comment here..."></textarea>
+          </div>
+          <div class="md:w-2/3">
+            <input id="submitBtn" class="
+                  shadow
+                  bg-blue-500
+                  hover:bg-blue-400
+                  focus:shadow-outline focus:outline-none
+                  text-white
+                  md:font-bold
+                  text-sm
+                  md:text-base
+                  py-3
+                  px-4
+                  mt-5
+                  rounded
+                  uppercase
+                " type="submit">
+
+            </input>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+
+    <!-- news option part/ right part -->
+    <div class="w-full md:w-1/3 px-4">
+      <div>
+        <div class="shadow flex mb-8">
+          <input class="bg-gray-100 w-full rounded p-2 px-8" type="text" placeholder="Search..." />
+          <button class="
+                bg-gray-100
+                w-auto
+                flex
+                justify-end
+                items-center
+                p-2
+                text-white
+                bg-gray-600 p-4
+              ">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <!-- Category -->
+        <div class="py-6 mb-6 px-6  md:-mx-4 bg-gray-100">
+          <h2 class="font-bold text-2xl border-b-2 py-2">Category</h2>
+          <div x-data={show:false} class="py-4 border-b-2">
+            <p class="flex justify-between">
+              <a x-on:click.prevent="show=!show" class="text-black cursor-pointer focus:outline-none mr-2">
+                Business Process
+              </a>
+              <a href="#" x-on:click.prevent="show=!show"><i class="fas fa-chevron-down"></i></a>
+            </p>
+            <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+              Monika is a multipurpose ready to use website. You can use this website for your company or any kind of
+              business.
+            </div>
+          </div>
+
+          <div x-data={show:false} class="py-4 border-b-2">
+            <p class="flex justify-between">
+              <a x-on:click.prevent="show=!show" class="text-black cursor-pointer focus:outline-none mr-2">
+                Business Councelling
+              </a>
+              <a href="#" x-on:click.prevent="show=!show"><i class="fas fa-chevron-down"></i></a>
+            </p>
+            <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+              Monika is a multipurpose ready to use website. You can use this website for your company or any kind of
+              business.
+            </div>
+          </div>
+
+          <div x-data={show:false} class="py-4 border-b-2">
+            <p class="flex justify-between">
+              <a x-on:click.prevent="show=!show" class="text-black cursor-pointer focus:outline-none mr-2">
+                Business Analysis
+              </a>
+              <a href="#" x-on:click.prevent="show=!show"><i class="fas fa-chevron-down"></i></a>
+            </p>
+            <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+              Monika is a multipurpose ready to use website. You can use this website for your company or any kind of
+              business.
+            </div>
+          </div>
+
+          <div x-data={show:false} class="py-4">
+            <p class="flex justify-between">
+              <a x-on:click.prevent="show=!show" class="text-black cursor-pointer focus:outline-none mr-2">
+                Customer Strategy
+              </a>
+              <a href="#" x-on:click.prevent="show=!show"><i class="fas fa-chevron-down"></i></a>
+            </p>
+            <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+              Monika is a multipurpose ready to use website. You can use this website for your company or any kind of
+              business.
+            </div>
+          </div>
+
+          <div x-data={show:false} class="py-4">
+            <p class="flex justify-between">
+              <a x-on:click.prevent="show=!show" class="text-black cursor-pointer focus:outline-none mr-2">
+                Market Analysis
+              </a>
+              <a href="#" x-on:click.prevent="show=!show"><i class="fas fa-chevron-down"></i></a>
+            </p>
+            <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">
+              Monika is a multipurpose ready to use website. You can use this website for your company or any kind of
+              business.
+            </div>
+          </div>
+
+        </div>
+        <!-- Category End -->
+
+
+
+        <div class="
+              shadow
+              mb-8
+              bg-gray-100
+              h-full
+              divide-y divide-gray-300
+              px-5
+              md:px-3
+            ">
+          <div class="py-5 px-3 font-bold lg:text-2xl text-lg">
+            <p>Recent Post</p>
+          </div>
+
+          <div class="flex items-center justify-between py-5 px-3 md:px-1">
+            <img class="
+                  rounded
+                  md:h-2/8 md:w-3/8
+                  lg:h-1/4 lg:w-1/4
+                  h-12
+                  w-14
+                  mb-2
+                  px-2
+                " src="./Assets/images/monikaImg2.jpg" alt="working" />
+
+            <div class="text-sm lg:text-base">
+              <p>But you need content ideas to do it working well</p>
+              <div class="flex pt-1 items-center">
+                <i class="far fa-clock mr-2"></i>
+                <p><span id="datetime1"></span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between py-5 px-3 md:px-1">
+            <img class="
+                  rounded
+                  md:h-2/8 md:w-3/8
+                  lg:h-1/4 lg:w-1/4
+                  h-12
+                  w-14
+                  mb-2
+                  px-2
+                " src="./Assets/images/monikaImg10.jpg" alt="working" />
+
+            <div class="text-sm lg:text-base">
+              <p>Report courrent news in your industry as soon as possible</p>
+              <div class="flex pt-1 items-center">
+                <i class="far fa-clock mr-2"></i>
+                <p><span id="datetime2"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-between py-5 px-3 md:px-1">
+            <img class="
+                  rounded
+                  md:h-2/8 md:w-3/8
+                  lg:h-1/4 lg:w-1/4
+                  h-12
+                  w-14
+                  mb-2
+                  px-2
+                " src="./Assets/images/monikaImg3.jpg" alt="working" />
+
+            <div class="text-sm lg:text-base">
+              <p>
+                People loves mistakes not making them. It is usiversal true
+              </p>
+              <div class="flex pt-1 items-center">
+                <i class="far fa-clock mr-2"></i>
+                <p><span id="datetime3"></span></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="shadow mb-8 bg-gray-100 h-full px-5 md:px-2">
+          <div class="
+                py-5
+                px-3
+                font-bold
+                text-lg
+                lg:text-2xl
+                divide-y divide-gray-300
+              ">
+            <p>Tags</p>
+          </div>
+          <hr />
+          <div class="grid grid-cols-2 gap-3 py-3 px-3">
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Company
+            </div>
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Business
+            </div>
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Analytic
+            </div>
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Agency
+            </div>
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Corporate
+            </div>
+            <div class="
+                  h-full
+                  w-full
+                  shadow-md
+                  bg-white
+                  p-2
+                  text-sm
+                  lg:text-base
+                ">
+              Industry
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of Single news section -->
+
+  <!-- footer section starts here -->
+
+  <footer class="footer-area">
+    <div class="container lg:w-10/12 mx-auto">
+      <div class="mx-auto">
+        <div class="py-4">
+          <div class="
+                xl:flex
+                lg:flex
+                md:flex
+                justify-between
+                items-center
+                text-white
+                py-6
+              ">
+            <div>
+              <h2 class="lg:text-3xl md:text-2xl font-bold pb-3">
+                Need a Business Plan! Tell Us
+              </h2>
+              <p>We are available 24/7 for your solutions</p>
+            </div>
+            <div class="mt-6">
+              <a href="contact_us.html" class="
+                    bg-blue-500
+                    md:px-6 md:py-4
+                    px-2 py-2
+                    font-semibold
+                    rounded
+                    shadow-lg
+                    hover:bg-blue-600
+                    focus:ring
+                    ring-blue-400
+                  ">Let's Start</a>
+            </div>
+          </div>
+          <hr class="text-gray-200 ft-hr" />
+        </div>
+        <div class="py-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+            <div class="mb-5 text-white">
+              <div class="flex">
+                <img src="Assets/images/monikaShada.png" alt="" class="w-16" />
+                <a href="#" class="text-white text-4xl font-bold px-4 mt-2">Monika</a>
+              </div>
+              <p class="py-4 text-justify">
+                Monika is a multipurpose ready to use website. You can use
+                this website for your company or any kind of business.
+              </p>
+              <ul class="flex space-x-4 text-xl">
+                <li>
+                  <a href="https://www.facebook.com/akashusr" class="hover:text-blue-500"><i
+                      class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-red-400"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-blue-500"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/akashusr/" class="hover:text-blue-500"><i
+                      class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-5 text-white lg:ml-16">
+              <h2 class="font-bold pb-4 text-2xl">Quick Links</h2>
+              <ul class="space-y-3">
+                <li><a href="about_Us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="news_Single.html">News Single</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+              </ul>
+            </div>
+
+            <div class="mb-2 text-white">
+              <h2 class="font-bold pb-4 text-2xl">Basic Info</h2>
+              <ul class="space-y-3">
+                <li>
+                  <a href="#"><i class="far fa-envelope text-blue-400"></i>
+                    info@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-phone-alt text-blue-400"></i> Call +(880
+                    012345678)</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-map-marker-alt text-blue-400"></i>
+                    Sakhipur, Tangail <br />
+                    Dhaka</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-2 text-white">
+              <h2 class="font-bold pb-4 text-2xl">Newsletter</h2>
+              <p>
+                Please subscribe for latest update. Stay tuned with Monika
+              </p>
+              <form action="xyz" class="flex flex-row pt-4">
+                <input id='mail' type="text" placeholder="Enter your email"
+                  class="px-2 py-4 focus:outline-none text-black" />
+                <button id='submitMail' class="bg-blue-600 p-4 rounded-b">
+                  <i class="far fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mt-2 ft-hr" />
+        <p class="text-center text-white py-10">
+          &copy; Monika All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end of footer section -->
+
+  <script>
+    // newsletter email data fetch
+    let newsMail = [];
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("submitMail").addEventListener("click", addInfo);
+    });
+    const addInfo = (e) => {
+      e.preventDefault();
+      if (document.getElementById("mail").value) {
+        let formInfo = {
+          email: document.getElementById("mail").value,
+        };
+        newsMail.push(formInfo);
+        console.log(newsMail);
+        alert("newsletter added successfully");
+        document.getElementById("mail").value = "";
+      } else {
+        alert("fill the box");
+      }
+    };
+
+
+    // form fetch
+    let personData = [];
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("submitBtn").addEventListener("click", addComment);
+    });
+    const addComment = (e) => {
+      e.preventDefault();
+
+      let [personName, email, comment] = [document.getElementById("personName").value, document.getElementById("email").value, document.getElementById("comment").value];
+
+      if (personName && email && comment) {
+        let formInfo = {
+          personName: personName,
+          email: email,
+          comment: comment,
+        };
+        personData.push(formInfo);
+
+        console.log(personData);
+        alert("Comment Added Successfully");
+        personName = '';
+        email = '';
+        comment = '';
+      }
+      else {
+        alert("Fill out the form")
+      }
+
+    };
+    ;
+  </script>
+
+  <script src="Assets/JS/owlcarousel/jquery.min.js"></script>
+  <script src="Assets/JS/main.js"></script>
+  <script src="Assets/JS/all.js"></script>
+</body>
+
+</html>
